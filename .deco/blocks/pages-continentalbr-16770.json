@@ -1,0 +1,99 @@
+{
+  "name": "continentalbr",
+  "path": "/continentalbr",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/MainBanner.tsx",
+        "images": [
+          {
+            "image": {
+              "decoding": "async",
+              "loading": "eager",
+              "fetchPriority": "high",
+              "src": {
+                "__resolveType": "website/flags/multivariate/image.ts",
+                "variants": [
+                  {
+                    "rule": {
+                      "__resolveType": "website/matchers/device.ts",
+                      "mobile": true,
+                      "tablet": true
+                    },
+                    "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-cms/cbeee3f5-f0b3-428d-a38d-3195520214c6/banner-atualiza-sua-casa-continental-mobile.webp"
+                  },
+                  {
+                    "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-cms/f9230d0e-0c90-48be-a528-9b7fd42174f6/banner-atualiza-sua-casa-continental.webp",
+                    "rule": {
+                      "__resolveType": "website/matchers/device.ts",
+                      "desktop": true
+                    }
+                  }
+                ]
+              },
+              "alt": "Atualiza sua casa",
+              "title": "Atualiza sua casa",
+              "width": 1920,
+              "height": 420,
+              "preload": true
+            },
+            "link": {
+              "attributeTitle": "Especial mais vendidos 48 Horas até 10% OFF no pix",
+              "url": "/1625?map=productClusterIds&amp;utmi_cp=atualiza-sua-casa&amp;utmi_p=home&amp;utmi_pc=banner-tv"
+            },
+            "analytics": {
+              "analyticsEvent": true,
+              "promotionId": "Atualiza sua casa",
+              "promotionName": "Atualiza sua casa",
+              "promotionPosition": "banner_tv"
+            }
+          },
+          {
+            "image": {
+              "decoding": "async",
+              "loading": "lazy",
+              "fetchPriority": "high",
+              "src": {
+                "__resolveType": "website/flags/multivariate/image.ts",
+                "variants": [
+                  {
+                    "rule": {
+                      "__resolveType": "website/matchers/device.ts",
+                      "mobile": true,
+                      "tablet": true
+                    },
+                    "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-cms/ca4fc3a3-7736-41e2-af8f-e1924c981685/banner-desempenho-em-dobro-continental-mobile.webp"
+                  },
+                  {
+                    "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/electrolux-cms/aea27398-20f2-4e29-ab92-2a23b8b7b751/banner-desempenho-em-dobro-continental.webp",
+                    "rule": {
+                      "__resolveType": "website/matchers/always.ts"
+                    }
+                  }
+                ]
+              },
+              "alt": "Até 30% + Frete Grátis Sudeste* + Pix 5% OFF",
+              "title": "Até 30% + Frete Grátis Sudeste* + Pix 5% OFF",
+              "width": 1920,
+              "height": 480
+            },
+            "link": {
+              "url": "/1800?map=productClusterIds&utmi_cp=conti-kits&utmi_p=home&utmi_pc=banner-tv",
+              "attributeTitle": "Portáteis week utilize os cupons e ganhe até 15%OFF + Frete grátis*",
+              "attributeNofollow": false,
+              "openNewTab": false
+            },
+            "analytics": {
+              "analyticsEvent": true,
+              "promotionId": "Desempenho em dobro",
+              "promotionName": "Desempenho em dobro",
+              "promotionPosition": "banner_tv"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
